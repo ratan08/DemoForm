@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatrialModuleModule } from './matrial-module/matrial-module.module';
 import { DetailDailogComponent } from './dailog/detail-dailog/detail-dailog.component';
-
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,6 +17,7 @@ import { DetailDailogComponent } from './dailog/detail-dailog/detail-dailog.comp
     BrowserModule,
     MatrialModuleModule,
     AppRoutingModule,
+    
     BrowserAnimationsModule
   ],
   providers: [],

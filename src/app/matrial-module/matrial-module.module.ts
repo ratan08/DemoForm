@@ -5,7 +5,8 @@ import {MatCardModule} from '@angular/material/card';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatRadioModule} from '@angular/material/radio';  
 import {MatButtonModule} from '@angular/material/button'; 
-import {MatDialogModule} from '@angular/material/dialog'; 
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatDatepickerModule} from '@angular/material/datepicker';  
 @NgModule({
   declarations: [],
   imports: [
@@ -15,10 +16,10 @@ import {MatDialogModule} from '@angular/material/dialog';
     MatCheckboxModule,
     MatRadioModule,
     MatButtonModule,
-    MatDialogModule
-
+    MatDialogModule,
+    MatDatepickerModule
   ],
   exports:[MatInputModule,MatCardModule,MatCheckboxModule,MatRadioModule,
-    MatButtonModule,MatDialogModule]
+    MatButtonModule,MatDialogModule,MatDatepickerModule]
 })
 export class MatrialModuleModule { }
